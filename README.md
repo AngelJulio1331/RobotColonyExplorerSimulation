@@ -31,6 +31,18 @@ When the program runs:
 - Chose a Timer for smooth and regular updates instead of using manual loops.
 - Used plain text files for saving and loading terrain data for simplicity and readability.
 
+Output
+The graphical window displays a 10 × 10 grid where:
+Green squares – Energy cells
+Gray squares – Rocks
+White squares – Empty cells
+Blue circles – Active robots
+Dark gray circles – Inactive robots
+<img width="495" height="560" alt="image" src="https://github.com/user-attachments/assets/d2a4e3be-a0a4-43b7-b38f-8d9ba29cc8f8" />
+<img width="494" height="559" alt="image" src="https://github.com/user-attachments/assets/8a894cad-c746-4e71-8eb7-9cc2aa5e086c" />
+
+
+
 The simulation effectively demonstrates how multiple objects (robots) can interact within a dynamic environment using simple logic.
 It shows the practical use of object-oriented principles such as encapsulation and modularity, as each component manages its own behavior.
 Through the combination of random movement, energy management, and visual updates, the simulation feels lively and unpredictable.
