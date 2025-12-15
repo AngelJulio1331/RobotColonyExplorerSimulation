@@ -2,7 +2,7 @@ Introduction
 The Robot Colony Explorer Simulation is a Java-based program that visually demonstrates how multiple robots explore a grid world. Each robot moves randomly, avoids rocks, collects energy, and becomes inactive once its energy runs out. The purpose of this simulation is to apply object-oriented programming concepts and GUI handling using Java Swing.
 
 > Program Design
-The program is organized into four main classes, each responsible for a specific task:
+The program is organized into four main classes, each responsible for a specific task
 - Cell Class:
 Represents a single block on the terrain grid. A cell can either be empty, contain energy, or be a rock.
 It provides simple methods to identify and change cell types.
